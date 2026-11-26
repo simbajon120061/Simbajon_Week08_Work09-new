@@ -34,9 +34,7 @@
             this.serachToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewListToolStripMenuItem = new System.Windows.Forms.ToolStripSeparator();
             this.viewLsitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -45,7 +43,7 @@
             this.employeeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(681, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -86,20 +84,11 @@
             this.viewLsitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.viewLsitToolStripMenuItem.Text = "View Lisit";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 28);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(775, 150);
-            this.dataGridView1.TabIndex = 1;
-            // 
             // FrmMainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(681, 450);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
@@ -107,7 +96,6 @@
             this.Text = "Main Screen";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,6 +109,5 @@
         private System.Windows.Forms.ToolStripMenuItem serachToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator viewListToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewLsitToolStripMenuItem;
-        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

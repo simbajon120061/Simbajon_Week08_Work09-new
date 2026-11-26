@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBContext\MySQLEmployeeContext.cs" />
     <Compile Include="FrmEmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
